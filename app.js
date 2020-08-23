@@ -73,11 +73,12 @@ document.write('<h2>Cambio de previsión en dental</h2>');
 
 
 for(i=0; i<dental.length; i++){
-    if (dental[i].prevision === 'ISAPRE')
+    if (dental[i].prevision === 'ISAPRE'){
         return 'FONASA'
-     else if (dental[i].prevision === 'FONASA')
+    }   
+     else if (dental[i].prevision === 'FONASA'){
         return 'ISAPRE'
-    
+     } 
 }
 
 //////////////////////////////////////
